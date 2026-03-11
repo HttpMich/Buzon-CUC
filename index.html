@@ -1,0 +1,46 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzon CUC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="Container">
+    <div class="header2"></div>
+
+    <div class="header">
+        <h1> Buzón CUC Escucha</h1>
+    </div>
+    
+    <div class="box">
+        <h2>Bienvenido al Buzón CUC! <br> Aquí puedes compartir tus ideas para mejorar la experiencia estudiantil, ya sea bienestar, servicios, clases, inclusión, entre otros.</h2>
+        
+         <p>Antes que nada completa estos campos:</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="program">Programa Académico:</label><br>
+            <input type="text" id="program" name="program" required><br>
+
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2026 Buzón CUC Escucha. Logo y nombres son propiedad de la Universidad de la Costa.<br> Este sitio no es oficial.
+    </footer>
+  </div>
+</body>
+
+</html>
